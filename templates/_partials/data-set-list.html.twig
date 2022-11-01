@@ -1,0 +1,18 @@
+<table class="table table-bordered" id="kineticTempTable">
+	<thead>
+		<tr>
+			<th scope="col">Sr.No</th>
+			<th scope="col">Temperature (°C)</th>
+			<th scope="col">Time (00:00:00)</th>
+		</tr>
+	</thead>
+	<tbody>
+        {% for index, item in dataSetList %}
+            <tr>
+                <th scope="row">{{ index + 1 }}</th>
+                <td>{{ item.temperature }}</td>
+                <td>{{ item.time }}</td>
+            </tr>
+        {% endfor %}
+	</tbody>
+</table>
