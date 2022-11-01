@@ -1,7 +1,7 @@
 # Symfony-mean-kinetic-temperature
 Calculate the mean kinetic temperature using symfony
 
-Content discussed : 
+## Content discussed : 
  - Modular symfony app development 
  - Responsive design
  - Calculate the mean kinetic temperature for celsius temperature
